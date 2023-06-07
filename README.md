@@ -25,45 +25,44 @@ Appium is an open-source mobile application testing framework that allows you to
 # Installation:
 
 1.	Install Python
-- To install click on this link https://www.python.org/downloads/
-- Download the latest version for windows
+ - To install click on this link [Click](https://www.python.org/downloads/)
+ - Download the latest version for windows
 
 2.	Install Pycharm Community Edition
-- To install click on this link https://www.jetbrains.com/pycharm/download/#section=windows
+ - To install click on this link [Click](https://www.jetbrains.com/pycharm/download/#section=windows)
 
 3.	Install Node JS
-- To install click on this link https://nodejs.org/en/
+ - To install click on this link [Click](https://nodejs.org/en/)
 
 4. Install Appium Server through Command
-
-       pip install Appium-Python-Client
+     
+     ``pip install Appium-Python-Client``
 
 5. Install Appium inspector
-- To install click on this link 
-https://github.com/appium/appium-desktop/releases/tag/v1.21.0
+ - To install click on this link [Click](https://github.com/appium/appium-desktop/releases/tag/v1.21.0)
 
-- Download the latest version for windows
+ - Download the latest version for windows
 
-- First we have to open Appium then click on start server 
+ - First we have to open Appium then click on start server 
 
-- After that click on inspector, it will direct to github page in that page we have to click on "Releases in installation option"
+ - After that click on inspector, it will direct to github page in that page we have to click on "Releases in installation option"
 
-- In “assets” choose the option which we want
+ - In “assets” choose the option which we want
 
-- It will download .exe file , we need to install it
+ - It will download .exe file , we need to install it
 
 
 6. Install Android Studio or MEmu Play (for Emulator purpose)
 
-- Android Studio Download link - https://developer.android.com/studio 
-- MEmu Play Download link - https://www.memuplay.com/
+ - Android Studio Download link [Click](https://developer.android.com/studio )
+ - MEmu Play Download link [Click](https://www.memuplay.com/)
 
 
 7.	Create a Virtual Device for Android Studio
 
-- Select pixel device from the phone
-- Download the Android version
-- Launch the emulator
+ - Select pixel device from the phone
+ - Download the Android version
+ - Launch the emulator
 
 
 # How To Setup Appium:
@@ -73,9 +72,9 @@ Appium Desktop: It comes in two packages
 
     2. Appium Inspector
 
-- Start Appium Server
+ - Start Appium Server
 
-- Launch the Appium Desktop then give the Host & Port and then start the server.
+ - Launch the Appium Desktop then give the Host & Port and then start the server.
 example:
 
         Host : localhost
