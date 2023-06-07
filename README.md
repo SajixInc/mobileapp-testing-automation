@@ -14,13 +14,12 @@ Appium is an open-source mobile application testing framework that allows you to
 
 # Features:
 
-- Multi-language support
-- Simplicity and ease of use
-- Real device and emulator/simulator support
-- Support for gestures and touch events
-- Integration with testing frameworks
-- It supports both Android and iOS
-
+  - Multi-language support
+  - Simplicity and ease of use
+  - Real device and emulator/simulator support
+  - Support for gestures and touch events
+  - Integration with testing frameworks
+  - It supports both Android and iOS
 
 # Installation:
 
@@ -35,8 +34,10 @@ Appium is an open-source mobile application testing framework that allows you to
  - To install click on this link [Click](https://nodejs.org/en/)
 
 4. Install Appium Server through Command
+
      
-     ``pip install Appium-Python-Client``
+     pip install Appium-Python-Client
+
 
 5. Install Appium inspector
  - To install click on this link [Click](https://github.com/appium/appium-desktop/releases/tag/v1.21.0)
@@ -66,7 +67,7 @@ Appium is an open-source mobile application testing framework that allows you to
 
 
 # How To Setup Appium:
-Appium Desktop: It comes in two packages 
+<strong>Appium Desktop :</strong> It comes in two packages
 
     1. Appium Desktop (Server)
 
@@ -122,13 +123,12 @@ example:
 - Start Appium Server
 - Run your filename.py 
 
-
 # Example Test:
    - <strong>App</strong> : Flipkart
  
    - <strong>Description</strong> : Hear we are testing the flipkart app via Appium with Python and we are getting the laptop price in the console window
 - First you need to create a .py file in that you have to write your code.
-- Example Code:
+- <h4>Example Code :</h4>
 
         from appium import webdriver
         from appium.options.android import UiAutomator2Options
