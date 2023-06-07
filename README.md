@@ -1,5 +1,5 @@
  
- <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/lifeeazy-logo1.png" align="right" width="250"/> <img src="https://github.com/vivifyhealthcare/mobileapp-testing-automation/assets/128147303/396c4585-856f-41bd-aea9-ed4f70bf78e7" width="250"/> 
+ <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/lifeeazy-logo1.png" align="right" width="250"/> <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/Appium.png" width="250"/> 
 
  
  
