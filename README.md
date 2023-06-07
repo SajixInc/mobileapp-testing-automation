@@ -85,7 +85,7 @@ example:
    
 - By default it will run on localhost:4723. This example will consider the default.
 
-![Screenshot 2023-06-06 115325](https://github.com/vivifyhealthcare/mobileapp-testing-automation/assets/128147303/2df838bd-48e0-43e8-96f9-0a1602ddd211)
+![Screenshot 2023-06-06 115325](https://vivifyassets.s3.ap-south-1.amazonaws.com/Appium_Server.png)
 
 - After download Appium Inspector, Complete the installation process then Open the Appium inspector
 
@@ -95,7 +95,7 @@ example:
 
         Remote path - /wd/hud
   
-   ![image (3)](https://github.com/vivifyhealthcare/mobileapp-testing-automation/assets/128147303/4deba379-7f17-4976-8d5f-799a06db709d)
+   ![image (3)](https://vivifyassets.s3.ap-south-1.amazonaws.com/Appium-Inspector.png)
 
 - With Appium 2.0, you should also ensure you’re sending W3C standard capabilities within your test code such as the following
  capabilities:
@@ -163,7 +163,7 @@ example:
 # Result:
 
 
-<img src = "https://github.com/vivifyhealthcare/mobileapp-testing-automation/assets/128147303/00e69104-ac18-475e-b5f1-6d2cbe68c03c">
+<img src = "https://vivifyassets.s3.ap-south-1.amazonaws.com/Appium_Results.png">
 
 
 
