@@ -36,7 +36,7 @@ Appium is an open-source mobile application testing framework that allows you to
 4. Install Appium Server through Command
 
      
-     pip install Appium-Python-Client
+    ``pip install Appium-Python-Client``
 
 
 5. Install Appium inspector
