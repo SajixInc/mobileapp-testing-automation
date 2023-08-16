@@ -172,7 +172,7 @@ example:
 
 
 
-# Appium Report in HTML and MongoDB Connection
+# Functional testing with database entry for mobile automation testing via Appium
 
 Appium can support to generate report by using pytest framework. This framework libraries provide how to generate detailed and organized report for test runs.
 
