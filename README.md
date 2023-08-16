@@ -163,11 +163,117 @@ example:
 # Result:
 
 
-<img src = "https://vivifyassets.s3.ap-south-1.amazonaws.com/Appium_Results.png">
+<img src = "https://vivifyassets.s3.ap-south-1.amazonaws.com/Appium_Results.png"><br><br><br>
 
 
+
+
+
+
+
+
+# Appium Report in HTML and MongoDB Connection
+
+Appium can support to generate report by using pytest framework. This framework libraries provide how to generate detailed and organized report for test runs.
+
+# Advantages
+
+* By integrating HTML reporting libraries into your Python-based Appium tests, you can generate detailed and visually appealing test reports.
+* HTML reports can be easily shared among team members and stakeholders.
+* HTML reports can help in debugging test failures by providing detailed information about the test environment, steps executed, and any error messages encountered. This aids in quicker issue identification and resolution.
+* HTML reports present test results in a human-readable format, making it simpler for both technical and non-technical team members to understand the outcomes of the tests.
+
+
+# To generate an Appium HTML Report using python
+
+# Prerequisites:
+
+* Install Appium, Python and MongoDB on your system
+* Install necessary packages
+
+        pip install pytest
+        pip install pytest-reporter-html1
+        pip install pymongo
+
+
+# Python environment setup:
+* Create an virtual environment on Windows :
+
+        python -m venv your_environment_name
+
+* Activate the virtual environment :
+
+        your_environment_name\Scripts\activate
+
+# Configure the mongoDB Connection:
+
+* Create New Connection and then give your mongoDB URI.
+* Click on Advanced connection option and then click onAuthentication option.
+* Inside Authentication, give your **Username** , **Password** and then click on Connect .
+
+# Example Code:
+* In Pycharm you need to import MongoClient 
+
+* Establishing a connection to the MongoDB server:
+
+        client = MongoClient(host='your_host', port=your_port, username='your_user_name', password='your_password', authSource='your_authsource')
+
+* Accessing the database and collection:
+
+        mydb = client['database_name']
+        collection = mydb["collection_name"]
+
+* The script selects the database named 'database_name' and the collection named 'collection_name' within that database.        
+
+* Defining the mobile function:
+
+        def mobile(PhoneNumber):
+        lis = []
+        print(lis)
+        query = {"PhoneNumber": PhoneNumber}
+        results = collection.find(query)
+        for doc in results:
+                b = doc['PhoneNumber']
+                lis.append(b)
+        if PhoneNumber in lis:
+                print("Data was successfully found in MongoDB.")
+        else:
+                print("No data was found in MongoDB.")
+        return lis
+
+* The mobile function takes a PhoneNumber as an argument. Inside the function:
+
+* An empty list 'lis' is initialized.
+* A query dictionary query is created with the key "PhoneNumber" and the provided PhoneNumber as the value.
+* The collection.find(query) function is used to search for documents in the collection that match the query.
+* The loop iterates through the results and appends the "PhoneNumber" field of each document to the 'lis' list.
+* It then checks if the provided PhoneNumber is in the 'lis' list. If it is, a success message is printed; otherwise, a failure message is printed.
+
+* Calling the mobile function and printing the results:
+
+        print(mobile(number))
+
+* The mobile function is called with the argument number, and the result is printed. 
+
+# Usage:
+* Specify the html1 template and the output path of the report
+
+* If You want to change report name "report.html" to "example_test.html" 
+
+* To run the folling command in Terminal:
+
+        pytest --template=html1/index.html --report=report.html  
+
+# Result:
+
+<img src= "https://vivifyassets.s3.ap-south-1.amazonaws.com/image+(3).png" width="500">
+
+
+<img src= "https://vivifyassets.s3.ap-south-1.amazonaws.com/image+(2).png" width="500">
 
 <p align="center">
 <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/cropped-vivify_login.png" margin_left="100"/>
 </p>
+
+
 
