@@ -1,5 +1,5 @@
  
- <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/lifeeazy-logo1.png" align="right" width="250"/> <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/Appium.png" width="250"/> 
+ <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/Tech+stack+final+logo+(1)+(1).png" align="right" width="250"/> <img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/Appium.png" width="250"/> 
 
  
  
